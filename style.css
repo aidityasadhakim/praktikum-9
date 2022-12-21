@@ -1,0 +1,99 @@
+body {
+	background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+table
+{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+}
+
+td
+{
+    border: 2px solid;
+    text-align: center;
+}
+
+table button
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color: MediumSlateBlue;
+    border: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+#Reset
+{
+    display: inline-block;
+    background: url('https://lh5.googleusercontent.com/t0y-KbtYKMnQ2bykM8h-g-uhKsz5Dqb9OjQQzCD2GW-eKUeRGQQ-5DfV4kfLxTbNG-M=w2400');
+    width: 250px;
+    height: 250px;
+    
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 125px;
+    cursor: pointer;
+}
+
+#Player1
+{
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    
+    background-color: MediumSlateBlue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    border: none;
+}
+
+#Player2
+{
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    
+    background-color: MediumSlateBlue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    border: none;
+}
+
+#Draw
+{
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    
+    background-color: MediumSlateBlue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    border: none;
+}

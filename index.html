@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aidityas Adhakim Tictactoe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <!-- Setelah masuk ke halaman maka langsung memanggil fungsi prepare() untuk bersiap -->
+    <!-- Menginisiasi semua variabel di awal permainan -->
+	<body onload="prepare()">
+        <h1>Aidityas Adhakim Tic Tac Toe</h1>
+
+    <!-- Pembuatan tabel dimulai dari kode ini, setiap tabel yang di klik akan memanggil fungsi choose() -->
+    <!-- Dengan parameter sesuai dari nomor tiap kolom -->
+    <!-- Pembagian kolom seperti ini -->
+    <!-- [0][1][2] -->
+    <!-- [3][4][5] -->
+    <!-- [6][7][8] -->
+    <div style="display: flex; justify-content: center;">
+		<table>
+		    <tr>
+                <td onclick="choose(0)">
+                    <button id="td1"> </button>
+                </td>	
+                 <td onclick="choose(1)">
+                    <button id="td2"> </button>
+                </td>
+                 <td onclick="choose(2)">
+                    <button id="td3"> </button>
+                </td>
+		    </tr>
+		        
+		    <tr>
+		         <td onclick="choose(3)">
+                    <button id="td4"> </button>
+                </td>	
+                 <td onclick="choose(4)">
+                    <button id="td5"> </button>
+                </td>
+                 <td onclick="choose(5)">
+                    <button id="td6"> </button>
+                </td>
+		    </tr>
+		    
+		    <tr>
+		        <td onclick="choose(6)">
+                    <button id="td7"> </button>
+                </td>	
+                 <td onclick="choose(7)">
+                    <button id="td8"> </button>
+                </td>
+                 <td onclick="choose(8)">
+                    <button id="td9"> </button>
+                </td>
+		    </tr>
+		</table>
+		
+        <!-- Dibawah ini merupakan atribut tambahan yang akan tampil -->
+        <!-- ketika permainan dimenangkan salah satu pihak atau seri -->
+        <button id="Reset" onclick="prepare()"> Play again </button>
+		<button id="Player1"> Player 1 wins! </button>
+		<button id="Player2"> Player 2 wins! </button>
+		<button id="Draw"> It's a draw! </button>
+    </div>
+
+        <script src="script.js"></script>
+	</body>
+</html>
